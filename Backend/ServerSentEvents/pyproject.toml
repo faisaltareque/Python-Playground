@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "SSE"
+version = "0.1.0"
+description = ""
+authors = ["Faisal Tareque <faisaltareque98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+websocket-client = "^1.7.0"
+sse-starlette = "^2.0.0"
+sseclient = "^0.0.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
